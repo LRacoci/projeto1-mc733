@@ -1,5 +1,5 @@
-a an virtualenvwrapper
- (substitua pelo nome do seu programa e o número do seu grupo)
+
+# Programa 0 - Programa de Exemplo (substitua pelo nome do seu programa e o número do seu grupo)
 ## O que faz? Para que serve?
 Inclua aqui uma breve descrição do seu programa para explicar o que esperar dele.
 ## Por que é bom para medir desempenho?
@@ -13,7 +13,6 @@ Instruções para execução. Se seu programa precisa de entradas, você deve fo
 ## Como medir o desempenho
 Como que o desempenho é medido através deste programa? Se for através de tempo, você deve especificar claramente qual tempo deverá ser utilizado e indicar o motivo aqui. Quantas vezes a medida deverá ser feita? O que fazer com ela (média, etc) ? Não especificar o tempo será considerado falha grave.
 ## Como apresentar o desempenho
-Como o desempenho deverá ser mostrado. Margem de erro, etc.
+Como o desempenho deverá ser mostrado. Margem de erro, etc. 
 ## Medições base (uma máquina)
 Inclua a especificação dos componentes relevantes e os resultados de desempenho.
-a virtualenv and virtualenvwrapper

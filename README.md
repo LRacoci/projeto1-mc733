@@ -1,9 +1,3 @@
-# Projeto 1
-
-
-## Parte 1
-
-
 a an virtualenvwrapper
  (substitua pelo nome do seu programa e o número do seu grupo)
 ## O que faz? Para que serve?

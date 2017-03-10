@@ -1,8 +1,9 @@
 
-# Programa 0 - Programa de Exemplo (substitua pelo nome do seu programa e o número do seu grupo)
+# Programa 4 - Estabilizaço de Vídeo usando o OpenCV
 ## O que faz? Para que serve?
-Inclua aqui uma breve descrição do seu programa para explicar o que esperar dele.
+Compila toda a biblioteca do opencv e executa um algorítmo de estabilização de vídeo em c++. Serve para estabilizar vídeos.
 ## Por que é bom para medir desempenho?
+Este teste é bom porque utiliza CPU, Memória RAM, GPU, Disco. 
 Que tipo de atividade ele está medindo? Somente desempenho do processador? Desempenho do disco? Algo mais? Processador single-core, multi-core?
 ## O que baixar
 Onde pode ser baixado o código fonte dele. Não é permitido utilizar nenhum versão já instalada nos computadores.

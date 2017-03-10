@@ -19,8 +19,7 @@ Instruções para execução. Se seu programa precisa de entradas, você deve fo
 ## Como medir o desempenho
 Como que o desempenho é medido através deste programa? Se for através de tempo, você deve especificar claramente qual tempo deverá ser utilizado e indicar o motivo aqui. Quantas vezes a medida deverá ser feita? O que fazer com ela (média, etc) ? Não especificar o tempo será considerado falha grave.
 ## Como apresentar o desempenho
-Como o desempenho deverá ser mostrado. Margem de erro, etc. 
+Como o desempenho deverá ser mostrado. Margem de erro, etc.
 ## Medições base (uma máquina)
 Inclua a especificação dos componentes relevantes e os resultados de desempenho.
 a virtualenv and virtualenvwrapper
-

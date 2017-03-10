@@ -1,10 +1,9 @@
 
 # Programa 4 - Estabilizaço de Vídeo usando o OpenCV
 ## O que faz? Para que serve?
-Compila toda a biblioteca do opencv e executa um algorítmo de estabilização de vídeo em c++. Serve para estabilizar vídeos.
+Compila toda a biblioteca do OpenCV e executa um algoritmo de estabilização de vídeo em c++. Serve para estabilizar vídeos.
 ## Por que é bom para medir desempenho?
-Este teste é bom porque utiliza CPU, Memória RAM, GPU, Disco. 
-Que tipo de atividade ele está medindo? Somente desempenho do processador? Desempenho do disco? Algo mais? Processador single-core, multi-core?
+Este teste é bom porque utiliza CPU e Memória RAM como outros testes, GPU por parte do OpenCV, Disco para ler os frames do vídeo da memória.
 ## O que baixar
 Onde pode ser baixado o código fonte dele. Não é permitido utilizar nenhum versão já instalada nos computadores.
 ## Como compilar/instalar

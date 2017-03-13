@@ -1,9 +1,9 @@
 
-# Programa 4 - Estabilizaço de Vídeo usando o OpenCV
+# Programa 4 - Compilação do Kernel do Linux utilizando o GNU GCC
 ## O que faz? Para que serve?
-Compila toda a biblioteca do OpenCV e executa um algoritmo de estabilização de vídeo em c++. Serve para estabilizar vídeos.
+O GNU GCC é um programa que transforma programas em linguagem C ou C++ em executáveis para serem rodados na máquina onde está sendo compilado. O Kernel do Linux é o núcleo deste sistema operacional com as syscalls básicas do sistema e faz o gerenciamento de periféricos e memória ou disco.
 ## Por que é bom para medir desempenho?
-Este teste é bom porque utiliza CPU e Memória RAM como outros testes, GPU por parte do OpenCV, Disco para ler os frames do vídeo da memória.
+Devido a grande quantidade de código envolvida no Kernel, o compilador possui muito trabalho para ser realizado, sendo possível medir o desempenho da CPU e cache, e também do disco pois possui muitas leituras e escritas de arquivos.
 ## O que baixar
 Onde pode ser baixado o código fonte dele. Não é permitido utilizar nenhum versão já instalada nos computadores.
 ## Como compilar/instalar

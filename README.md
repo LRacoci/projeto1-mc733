@@ -5,7 +5,7 @@ O GNU GCC é um programa que transforma programas em linguagem C ou C++ em execu
 ## Por que é bom para medir desempenho?
 Devido a grande quantidade de código envolvida no Kernel, o compilador possui muito trabalho para ser realizado, sendo possível medir o desempenho da CPU e cache, e também do disco pois possui muitas leituras e escritas de arquivos.
 ## O que baixar
-Onde pode ser baixado o código fonte dele. Não é permitido utilizar nenhum versão já instalada nos computadores.
+Para baixar o Kernel e o benchmark, clone o repositório https://github.com/LRacoci/projeto1-mc733.
 ## Como compilar/instalar
 O programa deverá ser instalado no computador, compilado localmente. Não deixar o binário disponível. Não deve ser necessário instalar como administrador do computador (root)
 ## Como executar

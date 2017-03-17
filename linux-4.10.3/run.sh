@@ -31,3 +31,5 @@ rm pss.log
 # Usa o perf novamente para calcular os parâmetros para 4 compilações
 echo "perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 4 ./clean_n_run.sh 2>> stat"
 perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 4 ./clean_n_run.sh 2>> stat
+
+cat stat | grep -e 'seconds time elapsed' -e 'cache-misses'

@@ -33,7 +33,7 @@ echo "perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branc
 perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 4 ./clean_n_run.sh 2>> stat
 
 # Calcula a média da memória virtual
-python avg.py ps.log >> stat
+python3 avg.py ps.log >> stat
 
 # Mostra os resultados
-python score.py stat
+python3 score.py stat

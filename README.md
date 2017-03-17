@@ -10,7 +10,9 @@ Para baixar os arquivos para realizar o benchmark, é preciso clonar este reposi
 Como o benchmark se trata de compilar o Kernel do Linux, não é preciso compilar nem instalar nada anteriormente, só possuir as Development Tools do Linux.
 ## Como executar
 Para executar o benchmark, é necessário entrar no diretório linux-4.10.3 e executar o seguinte comando:
+
 	$ ./run.sh
+
 ## Como medir o desempenho
 Como que o desempenho é medido através deste programa? Se for através de tempo, você deve especificar claramente qual tempo deverá ser utilizado e indicar o motivo aqui. Quantas vezes a medida deverá ser feita? O que fazer com ela (média, etc) ? Não especificar o tempo será considerado falha grave.
 ## Como apresentar o desempenho

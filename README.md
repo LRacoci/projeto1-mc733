@@ -30,10 +30,10 @@ Este comando roda o perf e calcula os parâmetros relevantes para o benchmark. E
 	$ rm pss.log
 	$ perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 4 ./clean_n_run.sh 2>> stat
 
-A cada vez que o Kernel é recompilado, é dado um clean para limpar os arquivos antigos. 
+A cada vez que o Kernel é recompilado, é dado um clean para limpar os arquivos antigos.
 
-Como que o desempenho é medido através deste programa? Se for através de tempo, você deve especificar claramente qual tempo deverá ser utilizado e indicar o motivo aqui. Quantas vezes a medida deverá ser feita? O que fazer com ela (média, etc) ? Não especificar o tempo será considerado falha grave.
+Foram utilizados alguns fatores para medir o desempenho do computador através da compilação do Kernel. Foram medidos o tempo da primeira execução T1 e da segunda rodada T2 através do perf, os cache misses da primeira execução CM através do perf também e a média
 ## Como apresentar o desempenho
-Como o desempenho deverá ser mostrado. Margem de erro, etc.
+O desempenho será mostrado no terminal como saída de run.sh, juntamente com os parâmetros medidos de tempo da primeira execução T1, tempo da segunda rodada T2, cache misses da primeira execução .
 ## Medições base (uma máquina)
 Inclua a especificação dos componentes relevantes e os resultados de desempenho.

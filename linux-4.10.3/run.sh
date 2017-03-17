@@ -6,9 +6,10 @@ cp ../config .config
 echo "rm -f stat ps.log"
 rm -f stat ps.log
 
-# 
+# Utiliza o ps para medir a memória e páginas físicas, imprimindo em um
+# arquivo os resultados das medidas enquanto o perf e a compilação rodam
 echo "(while true; do IFS=$'\n' ps_result=($(ps -C gcc -o pid=,%mem=,vsz=)); printf "$(date '+%s.%N') %s\n" "${ps_result[@]}" >> pss.log; done) &"
-(while true; do IFS=$'\n' ps_result=($(ps -C gcc -o pid=,%mem=,vsz=)); printf "$(date '+%s.%N') %s\n" "${ps_result[@]}" >> pss.log; done) &
+(while true; do IFS=$'\n' ps_result=($(ps -C gcc -o pid=,%mem=,sz=)); printf "$(date '+%s.%N') %s\n" "${ps_result[@]}" >> pss.log; done) &
 
 # Inicializa o perf para calcular os parâmetros desejados para o benchmark
 # enquanto roda o ps para medir o desempenho do disco na primeira vez

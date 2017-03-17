@@ -39,11 +39,11 @@ Foram utilizados alguns fatores para medir o desempenho do computador através d
 O desempenho será mostrado no terminal como saída de run.sh, com o auxílio de scripts em python, através dos parâmetros medidos de tempo da primeira execução T1, tempo da segunda rodada T2, cache misses da primeira execução CM e média da memória virtual VM. Depois só é preciso calcular a fórmula acima.
 ## Medições base (uma máquina)
 A saída de run.sh foi:
-	Cache miss:
-	4,402,274,373
-	Tempo da primeira execução:
-	398.604974932 s
-	Tempo da segunda execução:
-	311.584921594 s
-	Média da memória virtual:
-	896483.2628507797 kB
+	$ Cache miss:
+	$ 4,402,274,373
+	$ Tempo da primeira execução:
+	$ 398.604974932 s
+	$ Tempo da segunda execução:
+	$ 311.584921594 s
+	$ Média da memória virtual:
+	$ 896483.2628507797 kB

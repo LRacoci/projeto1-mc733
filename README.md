@@ -5,11 +5,12 @@ O GNU GCC é um programa que transforma programas em linguagem C ou C++ em execu
 ## Por que é bom para medir desempenho?
 Devido a grande quantidade de código envolvida no Kernel, o compilador possui muito trabalho para ser realizado, sendo possível medir o desempenho da CPU e cache, e também do disco pois possui muitas leituras e escritas de arquivos.
 ## O que baixar
-Onde pode ser baixado o código fonte dele. Não é permitido utilizar nenhum versão já instalada nos computadores.
+Para baixar os arquivos para realizar o benchmark, é preciso clonar este repositório [aqui](https://github.com/LRacoci/projeto1-mc733)
 ## Como compilar/instalar
-O programa deverá ser instalado no computador, compilado localmente. Não deixar o binário disponível. Não deve ser necessário instalar como administrador do computador (root)
+Como o benchmark se trata de compilar o Kernel do Linux, não é preciso compilar nem instalar nada anteriormente, só possuir as Development Tools do Linux.
 ## Como executar
-Instruções para execução. Se seu programa precisa de entradas, você deve fornece-las para que todos executem corretamente.
+Para executar o benchmark, é necessário entrar no diretório linux-4.10.3 e executar o seguinte comando:
+	$ ./run.sh
 ## Como medir o desempenho
 Como que o desempenho é medido através deste programa? Se for através de tempo, você deve especificar claramente qual tempo deverá ser utilizado e indicar o motivo aqui. Quantas vezes a medida deverá ser feita? O que fazer com ela (média, etc) ? Não especificar o tempo será considerado falha grave.
 ## Como apresentar o desempenho

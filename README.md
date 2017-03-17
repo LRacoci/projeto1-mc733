@@ -33,7 +33,7 @@ A cada vez que o Kernel é recompilado, é dado um clean para limpar os arquivos
 
 Foram utilizados alguns fatores para medir o desempenho do computador através da compilação do Kernel. Foram medidos o tempo da primeira execução T1 e da segunda rodada T2 através do perf, os cache misses da primeira execução CM (dividir valor por 10^9) através do perf também e a média da memória virtual VM (MB na fórmula, ou seja, dividir por 10^3). A fórmula de desempenho é uma média geométrica que está abaixo:
 
-	$ ((T1/T2)*T1*(10000/VM)*(10/CM))^(1/4)
+	$ ((5*T1/T2)*(10000000/T1)*(10000/VM)*(1000/CM))^(1/4)
 
 ## Como apresentar o desempenho
 O desempenho será mostrado no terminal como saída de run.sh, com o auxílio de scripts em python, através dos parâmetros medidos de tempo da primeira execução T1, tempo da segunda rodada T2, cache misses da primeira execução CM e média da memória virtual VM. Depois só é preciso calcular a fórmula acima.

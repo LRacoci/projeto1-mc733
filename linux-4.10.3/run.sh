@@ -7,4 +7,4 @@ perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-miss
 kill $!
 cat pss.log | grep -v ' $' > ps.log
 rm pss.log
-perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 2 ./clean_n_run.sh 2>> stat
+perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 4 ./clean_n_run.sh 2>> stat

@@ -32,4 +32,8 @@ rm pss.log
 echo "perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 4 ./clean_n_run.sh 2>> stat"
 perf stat -d -e cycles,bus-cycles,major-faults,minor-faults,branches,branch-misses,cpu-clock,cache-references,cache-misses -r 4 ./clean_n_run.sh 2>> stat
 
-cat stat | grep -e 'seconds time elapsed' -e 'cache-misses'
+# Calcula a média da memória virtual
+python avg.py ps.log >> stat
+
+# Mostra os resultados
+python score.py stat
